@@ -4,31 +4,36 @@
 20 minutes
 
 ## Overview
-In this lab, you will create your first NotebookLM notebook and explore its core features: uploading a source document, reviewing the automatically generated Notebook Guide, and asking targeted questions that are grounded in your source. Every answer NotebookLM provides includes a citation that links directly back to the relevant passage — so you can verify every claim in seconds.
+In this lab, you will create a NotebookLM notebook for executive preparation using Merck's public web sources. You will add multiple sources, review the Notebook Guide, ask meeting-focused questions, and produce three deliverables: an executive summary, an audio overview, and a slide deck outline.
 
 ### You learn how to:
 - Create a new notebook in NotebookLM.
-- Upload a PDF as a source document.
-- Use NotebookLM to get an instant structured overview of a complex document.
-- Ask targeted questions and follow up on specific citations.
-- Add notes to capture your own analysis alongside the AI-generated content.
+- Add website sources directly into a notebook.
+- Use NotebookLM to get a structured overview of a multi-source topic.
+- Ask targeted, citation-grounded questions for leadership prep.
+- Generate executive-ready outputs quickly.
 
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-lab.png" width="25%" alt="Cymbal Pharma Logo" />
+   <img src="images/merck-logo.png" width="25%" alt="Healthcare logo" />
 </p>
 
-You are a Senior Research Scientist in Cymbal Pharma's Early-Stage Drug Discovery unit. Your team has been fast-tracking a promising new Alzheimer's compound called **CPH-412**.
+You are a Merck executive preparing for a board and investor meeting. You have 10 minutes to brief leadership on the current state of the pipeline and related strategic context.
 
-A critical, *Initial Safety and Toxicity Report* has just arrived from the lab. You only have an hour before a stakeholder meeting where you must identify the high-risk data points and recommend a path forward. Studying the full report would leave no time for preparation — but with the right tool, it doesn't have to.
+You need a concise, source-backed summary covering pipeline highlights, clinical trial posture, partnering posture, and investor-facing context.
 
-In this lab, you will use NotebookLM as a triage tool: uploading the report, getting an instant overview, and extracting the exact findings that matter before the meeting starts.
+In this lab, you will use NotebookLM to collect and synthesize these public Merck sources:
+
+- https://www.merck.com/research/product-pipeline/
+- https://www.merck.com/research/business-development-and-licensing/
+- https://www.merck.com/investor-relations/
+- https://www.merck.com/research/clinical-trials/
 
 
 ## Lab Instructions
 
-### Task 1: Create a Notebook and Upload the Report
+### Task 1: Create a Notebook and Add Web Sources
 
 1. Open [NotebookLM](https://notebooklm.google.com/) in your browser. Sign in with your Google account if prompted.
 
@@ -42,30 +47,30 @@ In this lab, you will use NotebookLM as a triage tool: uploading the report, get
 3. A new, empty notebook opens. The __Add Sources__ screen will open. 
 
    <p align="left">
-     <img src="images/add-sources.png" width="50%" alt="Sources panel showing + Add sources button" />
+     <img src="images/add-web-sources.png" width="50%" alt="Sources panel showing + Add sources button" />
      <br><em>The Sources panel in an empty notebook</em>
    </p>
 
-4. Click the __Drive__ button. Then, paste the following link into the __Search__ field at the top, then press the __Enter__ key. It will find the file, select it, and then click __Insert__.
+4. Choose the option to add a **Websites**.
+
+5. Add each of the following links as separate sources:
 
 ```text
-https://drive.google.com/file/d/1XUM3q8Jf1D6EGuOCkZPykwzayA0YrG3z/view?usp=drive_link
+https://www.merck.com/research/product-pipeline/
+https://www.merck.com/research/business-development-and-licensing/
+https://www.merck.com/investor-relations/
+https://www.merck.com/research/clinical-trials/
 ```
 
-   <p align="left">
-     <img src="images/add-drive-sources.png" width="50%" alt="Add file from Drive screen" />
-     <br><em>Add file from Drive screen.</em>
-   </p>
 
-
-5. Wait a few seconds while NotebookLM processes the document. The source appears in the Sources panel when it is ready.
+6. Wait while NotebookLM processes the sources. Confirm all four appear in the Sources panel.
 
    > [!NOTE]
-   > NotebookLM reads and indexes the full document during this step. The richer and more structured the source, the better the quality of answers and citations you will receive.
+   > NotebookLM responses are only as strong as the sources you provide. Keep your source set focused and relevant to your meeting goal.
 
 ### Task 2: Explore the Notebook Guide
 
-Once a source is added, NotebookLM automatically generates a **Notebook Guide** — a structured overview of the document's key topics, themes, and suggested questions.
+Once sources are added, NotebookLM automatically generates a **Notebook Guide** with key topics, themes, and suggested questions.
 
 1. In the chat panel, click **Notebook Guide**.
 
@@ -75,9 +80,10 @@ Once a source is added, NotebookLM automatically generates a **Notebook Guide** 
    </p>
 
 2. Read through the generated summary. NotebookLM should have identified:
-   - The compound under study (CPH-412) and its intended therapeutic area
-   - The test groups, dosage ranges, and study design
-   - The key safety signals identified in the report
+   - Current Merck pipeline themes
+   - Clinical development and trial context
+   - Business development/licensing themes
+   - Investor-facing priorities
 
 3. Scroll to the **Suggested questions** at the bottom of the guide. These are questions NotebookLM has surfaced as important based on the document's content. Take note of them before moving to the next task.
 
@@ -86,102 +92,82 @@ Once a source is added, NotebookLM automatically generates a **Notebook Guide** 
 
 ### Task 3: Ask Targeted Questions
 
-You want three specific answers before the stakeholder meeting. Ask each of the following questions in the chat and evaluate the response — paying close attention to the citations NotebookLM provides.
+You need fast, source-backed talking points for a 10-minute board and investor brief. Ask each question and check citations.
 
-**Question 1: Identify the high-risk dosage group**
+**Question 1: Pipeline snapshot for leadership**
 
 1. Type the following in the chat and press Enter:
 
 ```text
-What was the exact dosage of CPH-412 given to the group that showed elevated liver enzymes?
+What are the most important current pipeline highlights I should present to the board in a 10-minute briefing?
 ```
 
-- Review the answer, then hover over the **citation** link. If you click on a citation, it should take you directly to the relevant section of the report.
-- Verify that the citation identifies the specific milligram dosage and the group designation.
+- Review the answer and verify that each major claim is citation-backed.
 
-2. Click the __Save to note__ button. Notice, your notes are saved on the lower-right pane of the screen. 
+2. Click **Save to note**.
 
-**Question 2: Find the recommended mitigation options**
+**Question 2: Competitor and market context**
 
 3. Type the following in the chat and press Enter:
 
 ```text
-Does the report recommend any alternative dosing schedules to mitigate the liver enzyme risk?
+Based on the sources, what competitor and market context should I include so investors understand where Merck is positioned?
 ```
 
-- This question requires NotebookLM to synthesize across multiple sections. Check whether it cites more than one part of the document.
-- Verify that the answer references at least two distinct alternative schedules.
+- Check that NotebookLM synthesizes across more than one source.
+- Save this response to a note.
 
-**Question 3: Understand the biological mechanism**
+### Task 4: Create an Executive Summary
 
-4. Type the following in the chat and press Enter:
+Now synthesize your notes into a short executive summary.
+
+1. Run this prompt:
 
 ```text
-What is the biological mechanism causing the toxicity in the high-dose group?
+Create a one-page executive summary for a board and investor meeting using only the sources in this notebook.
+
+Include:
+- 3-5 pipeline highlights
+- 2-3 market/competitor context points
+- 2-3 key risks or uncertainties
+- A short recommended narrative for a 10-minute verbal brief
+
+Keep it concise, clear, and citation-grounded.
 ```
 
-- This is the most technical question. Check whether the answer accurately describes an enzymatic pathway and its downstream effects.
-- Verify that the answer names the specific metabolic process responsible for the toxicity and explains the resulting cellular stress.
+2. Save it as a note.
 
-> [!NOTE]
-> If an answer feels incomplete, try a more specific follow-up. For example: *"Can you be more specific about which enzyme is involved and why saturation causes the observed effects?"* Precision in your questions leads to precision in the answers.
+### Task 5: Generate an Audio Overview
 
-### Task 4: Preparing for your meeting
+1. Click the arrow icon on the **Audio** button In NotebookLM Studio.
 
-You need a concise written summary to share with meeting attendees. 
+2. Select the __Brief__ option.
 
-1. Run the following prompt. 
+3. Prompt it with:
 
 ```text
-Write a short briefing note for the stakeholder meeting. Include:
-- The key risk finding
-- Mitigation options the report recommends
-- Recommended path forward
-
-Keep this output short and concise. Just notes for my upcoming meeting. 
+Create an executive audio briefing for Merck leadership. Focus on pipeline status, market context, and key risks. Keep the tone confident, balanced, and factual.
 ```
 
-2. Save this as a note. 
+   > [!NOTE]
+   > It will take a while for the audio to be generated. Don't wait for it. Continue to the next step. 
 
 
-4. With your note saved, ask a follow-up question that builds on it:
+### Task 6: Generate a Slide Deck
 
-```text
-Based on the report, what additional safety data would the lab need to collect to confirm that a lower twice-daily dose is safe for long-term use?
-```
+1. Click the arrow icon on the **Slide Deck** button In NotebookLM Studio.
 
-### Bonus Task 5: Challenge the Summary
+2. Select the __Presenter Slides__ option, and click __Generate__. 
 
-Use these prompts to test NotebookLM's boundaries and sharpen your instincts for working with cited AI tools.
 
-1. Ask a question the report cannot answer — for example:
+### Bonus Task 7: Apply This to Your Own Executive Brief
 
-```text
-What were CPH-412's Phase 2 trial results?
-```
-
-2. Ask for a comparison across groups:
-
-   ```text
-   How did the low-dose group's results differ from the high-dose group's results across all measured safety markers?
-   ```
-
-3. Ask NotebookLM to reformat information into a table:
-
-   ```text
-   List all dosage groups tested, the CPH-412 dose each received in milligrams, and their most significant finding — formatted as a table.
-   ```
-
-4. Compare the table against the original report to verify that no information was added or altered.
-
-### Bonus Task 6: Try It with Your Own Document
-
-Create a new notebook and upload a long document from your own work — a report, a policy, a research paper, or a lengthy email thread. Ask NotebookLM three questions that would normally take you significant time to answer manually. Note how long it takes compared to reading the document yourself.
+Create a new notebook for your own leadership topic. Add 3-5 trusted sources, ask focused briefing questions, and produce the same three outputs: executive summary, audio overview, and slide outline.
 
 ## Congratulations
 
 In this lab, you have:
-- Created a NotebookLM notebook and uploaded a source document.
-- Used the Notebook Guide to get an instant structured overview of a complex technical report.
-- Asked targeted questions and verified answers using citations linked to the source.
-- Added a note to capture your own analysis alongside the AI-generated content.
+- Created a NotebookLM notebook and imported multiple web sources.
+- Used the Notebook Guide to get a fast strategic overview.
+- Asked targeted, citation-grounded questions for board/investor prep.
+- Produced three executive deliverables: a summary, audio overview, and slide deck outline.
