@@ -4,80 +4,73 @@
 10 minutes
 
 ## Overview
-In this lab, you will use Gemini's image generation model to place yourself — using your own headshot — into a Cymbal-Mart warehouse setting. This is a quick, fun introduction to Gemini's multimodal image generation capabilities and a great way to kick off the course.
+In this lab, you will use Gemini's image generation model to create a warm, professional, branded social media image for a Merck campaign. This is a quick, fun introduction to Gemini's image generation capabilities and a great way to kick off the course.
 
 ### You learn how to:
-- Upload an image file as context for an image generation prompt.
-- Use a detailed, role-based prompt to control setting, branding, and style.
-- Generate a professional, context-aware image asset.
+- Construct a visual prompt to evoke emotion and convey a campaign message.
+- Upload an image file (Merck logo) as context for image generation.
+- Generate a professional, brand-ready visual asset.
 
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-mart-logo.png" width="50%" alt="Cymbal-Mart Logo" />
+  <img src="images/merck-logo.png" width="30%" alt="Merck Logo" />
 </p>
 
-Cymbal-Mart is running an internal employee spotlight campaign. The Social Media team wants a series of gritty, authentic portraits placing team members inside the company's massive distribution centers. You have been asked to generate your own spotlight photo.
+Merck's Corporate Communications and Marketing teams are launching a social media campaign around cognitive health and the importance of preserving memories—aligning with Merck's pipeline of treatments for Alzheimer's disease. The team wants a heartwarming, high-quality visual showing stable cognitive health across generations: a grandfather teaching his two young grandchildren how to play chess.
 
 ## Lab Instructions
 
-### Task 1: Generate Your Warehouse Portrait
+### Task 1: Generate the Campaign Image
 
 1. Open **Gemini Enterprise** in your browser.
 
-2. In the chat bar, select the **Tools** icon and choose **Generate images**
+2. In the chat bar, select the **Tools** icon and choose **Create images**.
 
    <p align="left">
-      <img src="images/generate-images.png" width="50%" alt="Generate Images" />
+      <img src="images/generate-images.png" width="50%" alt="Create Images" />
       <br>
-      <em>Generate Images tool</em>
+      <em>Create Images tool</em>
    </p>
 
-3. Click **+ Add files** and select **Upload files**. In the dialog, upload a photo of yourself, and click **Open**. __Note:__ if it is easier, just copy a picture of yourself to the clipboard and paste it in the chat box. 
-
-4. Copy and paste the following prompt into the chat, then press **Enter**:
+3. Copy and paste the following prompt into the chat, then press **Enter**:
 
    ```text
-   You are a professional photographer taking a gritty and authentic portrait for an employee spotlight series. Using the face from the uploaded headshot, maintaining the facial identity as a perfect, unaltered match, place it onto the body of a worker.
-
-   The worker is wearing a branded high-visibility safety vest (neon yellow and blue) with a "Cymbal-Mart" logo on the chest, a standard blue uniform shirt, and dark work trousers. Their expression is competent and professional, holding a hand-held scanner gun in one hand and resting the other on a large metal rolling inventory cart filled with boxes.
-
-   The setting is the interior of a massive Cymbal-Mart warehouse distribution center. The background shows endless rows of floor-to-ceiling metal shelving stocked high with cardboard boxes labeled with Cymbal-Mart branding and barcodes. In the distance, other workers operate forklifts, and large "RECEIVING" and "AISLE 4B" signs hang from high steel beams. The lighting mixes harsh overhead fluorescents with natural light from loading bay doors. The photo is taken at eye level, capturing the scale of the facility. The feel is industrious, efficient, and realistic — sharp and detailed, like a documentary-style image.
+   Create a high-quality, professional photograph for a healthcare social media post. A grandfather teaching his two grandchildren how to play chess. 
    ```
 
-5. We didn't give Gemini the Cymbal-Mart logo. Copy it from the image above, paste it into the chat, and tell the model to use it in the photo. Enter the prompt below, after you paste the logo. 
+4. We want to add Merck's brand mark to the image. Copy the **Merck Logo** shown in the Scenario section above and paste it into your Gemini chat, and run the following follow-up prompt:
 
-```
-Adjust the image using the attached logo on the vest. 
-```
+   ```text
+   Adjust the image using the attached Merck logo. Place the Merck logo neatly and professionally as a small watermark in the bottom corner of the image.
+   ```
 
-   <p align="left">
-      <img src="images/image-gen-result.png" width="50%" alt="Generate Image Result" />
-      <br>
-      <em>Example of a generated image.</em>
-   </p>
+5. Review the generated image. Notice how Gemini integrates the brand assets to create a ready-to-share social post.
 
+### Task 2: Refine and Experiment
 
-6. Review the generated image. If the likeness or setting is not quite right, see the Bonus Task below for refinement techniques.
+1. Try changing the artistic medium. Ask Gemini to regenerate the same scene but using a different style:
 
-### Bonus Task 2: Refine and Experiment
+   ```text
+   Regenerate this exact scene, but change the style to a soft, warm watercolor illustration.
+   ```
 
-1. Try swapping the setting. Ask Gemini to regenerate the same portrait but place you **on the floor of a busy Cymbal-Mart retail store** instead of the warehouse — surrounded by product displays, customers, and branded signage.
+2. Experiment by adding additional details to the prompt. Where are they sitting, how old are they, what do they look like, how many grandchildren are there? For example: 
 
-2. Experiment with one change at a time: adjust the lighting description, change the uniform, or modify the expression instruction. Notice how each specific change affects the output.
-
-3. Share your best result with the group.
-
+   ```text
+   Create a high-quality, professional photograph for a healthcare social media post. A  gray-haired, African-American grandfather with a beard is teaching his two grandchildren (a boy and a girl between 7 and 9) how to play chess. They are on the front porch of an older southern-style house. It is a beautiful summer evening. Warm light and cozy. Add the Merck logo in the bottom left corner.
+   ```
 
    <p align="left">
-      <img src="images/image-gen-result2.png" width="50%" alt="Generate Image Result" />
+      <img src="images/example-output.png" width="50%" alt="Example Output" />
       <br>
-      <em>Example of a generated image.</em>
+      <em>Example Output</em>
    </p>
+
 
 ## Congratulations
 
 In this lab, you have:
-- Uploaded a personal image as generation context.
-- Used a detailed, structured prompt to control identity, setting, and style.
-- Generated a branded employee spotlight image using Gemini.
+- Created a heartwarming campaign visual built on real-world therapeutic context.
+- Practiced uploading a brand logo as visual context for image generation.
+- Explored fast style and setting refinements using Gemini.
