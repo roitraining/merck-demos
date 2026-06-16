@@ -4,31 +4,31 @@
 30 minutes
 
 ## Overview
-In this lab, you will use Gemini Enterprise Deep Research to investigate a company before making an investment decision.
+In this lab, you will use Gemini Enterprise Deep Research to analyze the current Alzheimer's drug market for a Merck strategy use case.
 
-You will learn how to start with a broad question, narrow the research to founders and company background, test market viability, and turn the results into a partner-ready recommendation.
+You will start broad, then narrow to competitor therapies, evidence strength, and market dynamics. Finally, you will turn the findings into a concise strategy brief.
 
 ### You learn how to:
 - Frame a strong Deep Research request.
 - Ask follow-up questions that improve source quality and answer depth.
-- Turn research output into a concise executive summary.
+- Compare competitors in a structured, evidence-based format.
 
 ## Scenario
 
 <p align="left">
-  <img src="images/cymbal-analysts.png" width="70%" alt="Cymbal Capital Partners logo" />
+  <img src="images/merck-logo.png" width="70%" alt="Merck logo" />
 </p>
 
-The Cymbal Capital Partners team has identified a number of high-growth technology companies and needs to move quickly. 
+Merck's Market Intelligence team needs a current view of the Alzheimer's treatment landscape. Leadership wants to understand the major approved and late-stage competitor therapies, where evidence is strongest, and where unmet need still exists.
 
-Your job is to use Gemini Enterprise Deep Research to gather evidence on the company backgrounds, founder credibility, and market viability, and then, turn the findings into concise recommendations for the investment committee.
+Your job is to use Gemini Enterprise Deep Research to build a source-backed landscape review and convert it into a short strategic recommendation.
 
 
 ## Lab Instructions
 
 ### Task 1: Start with a Broad Research Brief
 
-Begin with a wide question so Deep Research can surface the company overview and the main evidence themes.
+Begin broad so Deep Research can map the therapeutic and market landscape.
 
 1. Open Gemini Enterprise and start a new chat.
 
@@ -40,125 +40,62 @@ Begin with a wide question so Deep Research can surface the company overview and
      <em>Deep Research</em>
    </p>
 
-3. Choose a company to research. Pick one from the list below, or use any company you find interesting.
-
-   | Company | What they do |
-   |---------|--------------|
-   | **Stripe** | Payments infrastructure for the internet |
-   | **Databricks** | Data and AI platform for enterprises |
-   | **Anthropic** | AI safety company and developer of the Claude model |
-   | **Canva** | Online design and visual communication platform |
-   | **Scale AI** | Data labeling and AI infrastructure for ML teams |
-   | **Hugging Face** | Open-source AI model hub and developer tools |
-   | **Perplexity AI** | AI-powered answer engine and search alternative |
-   | **Harvey AI** | Generative AI platform built for legal work |
-
-4. Paste the following prompt, replacing `[Company Name]` with the company you chose:
+3. Paste the following prompt:
 
 ```text
-You are helping Cymbal Capital Partners, a venture capital and private equity firm, to evaluate a potential investment.
+You are supporting Merck's Market Intelligence team.
 
-Research [Company Name] and summarize the most important facts for an investor.
+Research the current global market for Alzheimer's disease drugs.
 
 Return:
-1. What the company does
-2. Who the founders are and why they matter
-3. What problem the company claims to solve
-4. The top 3 signs the company could be investable
-5. The top 3 reasons to be cautious
-6. A one-sentence preliminary recommendation
+1. Major treatment categories and mechanisms in use today
+2. Key approved therapies and their developers
+3. Notable late-stage pipeline therapies (Phase 3 or registration stage)
+4. Top 3 market trends in the next 2-3 years
+5. Top 3 unmet needs in patients or care delivery
+6. A one-sentence summary of where the market is heading
 
 Use reliable sources and cite where each claim comes from.
 ```
 
-5. Wait for Deep Research to generate a research plan. Review the plan — a good plan should cover at least the company background, the founders, and the market. If it looks too narrow or too broad, ask Deep Research to adjust it before proceeding.
+4. Wait for Deep Research to generate a research plan. Review the plan. A good plan should cover approvals, pipeline, efficacy/safety themes, market access, and unmet need. If the plan is too narrow or too broad, ask Deep Research to adjust it before proceeding.
 
-6. Scroll to the bottom of the plan and click **Start research**.
+5. Scroll to the bottom of the plan and click **Start research**.
 
-### Task 2: Focus on the Founders
+### Task 2: Compare Competitors
 
-Now narrow the research to the people behind the company.
+Now narrow the research to direct competitor comparison.
 
-1. Ask a follow-up prompt focused only on the founders:
+1. Ask this follow-up prompt:
 
 ```text
-Now focus only on the founders and leadership team of this company.
+Now compare the leading Alzheimer's drug competitors relevant to Merck.
 
-Research their background, relevant experience, and any signals that affect investor confidence.
+Build a comparison table with one row per therapy and these columns:
+- Drug name
+- Company
+- Mechanism of action
+- Regulatory status (approved, submitted, Phase 3, etc.)
+- Patient population / stage focus
+- Key efficacy signal (high-level only)
+- Notable safety or monitoring considerations
+- Source links
 
 Return:
-1. Founder bios in one or two sentences each
-2. Relevant startup, industry, or domain experience
-3. Any prior exits, failures, or leadership gaps that matter
-4. Evidence of founder-market fit
-5. One concern an investor should investigate further
+1. The table
+2. A short summary: where competitors appear strongest
+3. A short summary: where gaps remain
 
-Use only evidence you can support from reliable sources.
+Use only evidence from reliable sources. If something cannot be verified, label it Unverified.
 ```
 
-2. Check whether Deep Research distinguishes between strong evidence and speculation. Good output should name specific roles, dates, companies, or prior outcomes. If the output is too vague, ask a follow-up:
+2. If the response is too generic, ask this follow-up:
 
 ```text
-For each founder, cite specific roles, companies, and dates rather than general descriptions. Label anything you cannot verify from a reliable source as Unverified.
+For each therapy, add specific dates and source-backed status updates. Replace broad claims with concrete source-backed statements, or label them Unverified.
 ```
 
-### Task 3: Test Market Viability
-
-Shift from people to market opportunity.
-
-1. Ask a market-focused follow-up:
-
-```text
-Research the market viability of this company.
-
-Answer as an investor would.
-
-Return:
-1. The market problem and why it matters now
-2. The size or direction of the opportunity
-3. The most important competitors or alternatives
-4. The company's likely differentiation
-5. The biggest market risk
-6. Whether the market appears attractive enough for venture or growth investment
-```
-
-2. Look for evidence that the response is based on concrete sources rather than general market commentary. If the answer relies on broad industry language without citations, ask a follow-up:
-
-```text
-Replace any general market size claims with specific figures or named sources. If a number cannot be verified, label it Unverified.
-```
-
-### Task 4: Produce an Investment Summary
-
-Now turn the research into an internal memo.
-
-1. Ask Deep Research to synthesize the evidence into a short decision note:
-
-```text
-Prepare a short investment note for Cymbal Capital Partners using only the research gathered so far.
-
-Write a memo with these sections:
-- Title
-- One-line summary
-- Why it stands out
-- Key risks
-- Missing information
-- Recommendation
-
-Rules:
-- Stay grounded in the research.
-- Do not invent facts.
-- Mark any uncertain claims as Unverified.
-- Keep it concise and decision-oriented.
-```
-
-2. Review whether the memo is useful for an investment committee. The best version should make the decision easier, not just repeat the research. If it reads more like a summary than a recommendation, ask:
-
-```text
-Rewrite the recommendation section to be more direct. State clearly whether Cymbal Capital Partners should proceed to diligence, hold, or pass, and give a one-line rationale.
-```
-
-### Bonus Task 5: Apply Deep Research to Your Own Work
+### Bonus Task 3: Apply Deep Research to Your Own Work
 
 Choose a research question that is relevant to your organization — something you would normally spend hours investigating manually. Use Deep Research to do the first pass.
 
@@ -166,11 +103,11 @@ Here are some ideas to get you started:
 
 | Scenario | Example question |
 |----------|-----------------|
-| **Market research** | What are the emerging trends and unmet needs in [your market or industry] over the next 2–3 years? |
-| **Competitor analysis** | Who are the top competitors to [your product or service], and how do they differentiate on pricing, features, and positioning? |
-| **Technology evaluation** | What are the leading platforms or tools for [a capability your team needs], and what are the trade-offs between them? |
-| **Regulatory landscape** | What regulations or compliance requirements should a company in [your industry] be aware of when operating in [a region or market]? |
-| **Partnership scouting** | Who are the most credible vendors or partners in the [a domain relevant to you] space, and what do customers say about working with them? |
+| **Therapy area scan** | What are the most important pipeline and approval shifts in [therapy area] over the next 2-3 years? |
+| **Competitor analysis** | Which competitors are strongest in [therapy area], and where are their evidence or access gaps? |
+| **Access and reimbursement** | What payer and health system barriers most affect uptake in [market/region]? |
+| **Regulatory landscape** | What pending regulatory events in [therapy area] could change market dynamics? |
+| **Partnership scouting** | Which biotech or platform partners appear most strategic based on current evidence and trajectory? |
 
 1. Open a new Gemini Enterprise chat and select **Deep Research**.
 
@@ -180,11 +117,8 @@ Here are some ideas to get you started:
 
 4. Review the output. Ask at least one follow-up prompt to push for more specific evidence or to clarify a claim that looks too general.
 
-5. Share your question and one key finding with the group. Did Deep Research surface anything you did not already know?
-
 ## Congratulations
 
 In this lab, you have:
-- Used Gemini Enterprise Deep Research to investigate a company's background, founders, and market viability.
-- Refined research output by asking follow-up prompts that force citation and remove vague language.
-- Turned multi-pass research into a concise, decision-ready investment note.
+- Used Gemini Enterprise Deep Research to map the Alzheimer's drug market and key competitors.
+- Refined research output by forcing source quality, specificity, and verification.
