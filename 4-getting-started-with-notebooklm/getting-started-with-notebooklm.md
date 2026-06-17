@@ -33,7 +33,7 @@ In this lab, you will use NotebookLM to collect and synthesize these public Merc
 
 ## Lab Instructions
 
-### Task 1: Create a Notebook and Add Web Sources
+### Task 1: Create a Notebook and add web sources
 
 1. Open [NotebookLM](https://notebooklm.google.com/) in your browser. Sign in with your Google account if prompted.
 
@@ -90,13 +90,13 @@ Once sources are added, NotebookLM automatically generates a **Notebook Guide** 
    > [!NOTE]
    > The Notebook Guide is generated automatically but is not saved. If you want to keep it, click the **Save to note** icon (📌) before closing or scrolling past it.
 
-### Task 3: Ask Targeted Questions
+### Task 3: Ask targeted questions
 
 You need fast, source-backed talking points for a 10-minute board and investor brief. Ask each question and check citations.
 
 **Question 1: Pipeline snapshot for leadership**
 
-1. Type the following in the chat and press Enter:
+1. Type the following in the chat and press ENTER:
 
 ```text
 What are the most important current pipeline highlights I should present to the board in a 10-minute briefing?
@@ -108,7 +108,7 @@ What are the most important current pipeline highlights I should present to the 
 
 **Question 2: Competitor and market context**
 
-3. Type the following in the chat and press Enter:
+3. Type the following in the chat and press ENTER:
 
 ```text
 Based on the sources, what competitor and market context should I include so investors understand where Merck is positioned?
@@ -117,7 +117,7 @@ Based on the sources, what competitor and market context should I include so inv
 - Check that NotebookLM synthesizes across more than one source.
 - Save this response to a note.
 
-### Task 4: Create an Executive Summary
+### Task 4: Create an executive summary
 
 Now synthesize your notes into a short executive summary.
 
@@ -137,7 +137,7 @@ Keep it concise, clear, and citation-grounded.
 
 2. Save it as a note.
 
-### Task 5: Generate an Audio Overview
+### Task 5: Generate an audio overview
 
 1. Click the arrow icon on the **Audio** button In NotebookLM Studio.
 
@@ -153,14 +153,14 @@ Create an executive audio briefing for Merck leadership. Focus on pipeline statu
    > It will take a while for the audio to be generated. Don't wait for it. Continue to the next step. 
 
 
-### Task 6: Generate a Slide Deck
+### Task 6: Generate a slide deck
 
 1. Click the arrow icon on the **Slide Deck** button In NotebookLM Studio.
 
 2. Select the __Presenter Slides__ option, and click __Generate__. 
 
 
-### Bonus Task 7: Apply This to Your Own Executive Brief
+### Bonus Task 7: Apply this to your own executive brief
 
 Create a new notebook for your own leadership topic. Add 3-5 trusted sources, ask focused briefing questions, and produce the same three outputs: executive summary, audio overview, and slide outline.
 
