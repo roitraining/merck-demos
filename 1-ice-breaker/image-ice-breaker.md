@@ -21,7 +21,7 @@ Merck's Corporate Communications and Marketing teams are launching a social medi
 
 ## Lab Instructions
 
-### Task 1: Generate the Campaign Image
+### Task 1: Generate the campaign image
 
 1. Open **Gemini Enterprise** in your browser.
 
@@ -30,10 +30,10 @@ Merck's Corporate Communications and Marketing teams are launching a social medi
    <p align="left">
       <img src="images/generate-images.png" width="50%" alt="Create Images" />
       <br>
-      <em>Create Images tool</em>
+      <em>Create images tool</em>
    </p>
 
-3. Copy and paste the following prompt into the chat, then press **Enter**:
+3. Copy and paste the following prompt into the chat, then press ENTER:
 
    ```text
    Create a high-quality, professional photograph for a healthcare social media post. A grandfather teaching his two grandchildren how to play chess. 
@@ -47,7 +47,7 @@ Merck's Corporate Communications and Marketing teams are launching a social medi
 
 5. Review the generated image. Notice how Gemini integrates the brand assets to create a ready-to-share social post.
 
-### Task 2: Refine and Experiment
+### Task 2: Refine and experiment
 
 1. Try changing the artistic medium. Ask Gemini to regenerate the same scene but using a different style:
 
@@ -58,13 +58,13 @@ Merck's Corporate Communications and Marketing teams are launching a social medi
 2. Experiment by adding additional details to the prompt. Where are they sitting, how old are they, what do they look like, how many grandchildren are there? For example: 
 
    ```text
-   Create a high-quality, professional photograph for a healthcare social media post. A  gray-haired, African-American grandfather with a beard is teaching his two grandchildren (a boy and a girl between 7 and 9) how to play chess. They are on the front porch of an older southern-style house. It is a beautiful summer evening. Warm light and cozy. Add the Merck logo in the bottom left corner.
+   Create a high quality, professional photograph for a healthcare social media post. A  gray-haired, African-American grandfather with a beard is teaching his two grandchildren (a boy and a girl between 7 and 9) how to play chess. They are on the front porch of an older southern-style house. It is a beautiful summer evening. Warm light and cozy. Add the Merck logo in the bottom-left corner.
    ```
 
    <p align="left">
       <img src="images/example-output.png" width="50%" alt="Example Output" />
       <br>
-      <em>Example Output</em>
+      <em>Example output</em>
    </p>
 
 
