@@ -16,7 +16,7 @@ You will start broad, then narrow to competitor therapies, evidence strength, an
 ## Scenario
 
 <p align="left">
-  <img src="images/merck-logo.png" width="70%" alt="Merck logo" />
+   <img src="images/merck-logo.png" width="25%" alt="Healthcare logo" />
 </p>
 
 Merck's Market Intelligence team needs a current view of the Alzheimer's treatment landscape. Leadership wants to understand the major approved and late-stage competitor therapies, where evidence is strongest, and where unmet need still exists.
