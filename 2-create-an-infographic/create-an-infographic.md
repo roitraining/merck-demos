@@ -64,9 +64,9 @@ Your goal is to generate a clean infographic concept that is informative, hopefu
    - Keep on-image text concise and legible.
    ```
 
-5. Review the output and check whether it follows all 4 parts of PTCF.
+5. Review the output and check whether it follows all four parts of PTCF.
 
-### Task 2: Iterate with Small Changes
+### Task 2: Iterate with small changes
 
 Make at least two iterations. Change only one area at a time:
 
@@ -96,7 +96,7 @@ Make at least two iterations. Change only one area at a time:
 
 
 
-### Bonus Task 3: Build Your Own Prompt
+### Bonus Task 3: Build your own prompt
 
 Create a new infographic prompt for a healthcare or life sciences topic relevant to your team. Keep the same PTCF structure and limit each section to 1-3 lines.
 
