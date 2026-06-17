@@ -22,7 +22,7 @@ In this lab, you will build one agent to create a standardized trial brief and a
 
 ## Lab Instructions
 
-### Task 1: Create the Clinical Trial Briefing Agent
+### Task 1: Create the clinical trial briefing agent
 
 This agent turns raw clinical-trial text into a clean, repeatable summary.
 
@@ -73,7 +73,7 @@ This agent turns raw clinical-trial text into a clean, repeatable summary.
 
 6. Check that all fields are captured and missing fields are flagged.
 
-### Task 2: Refine and Launch
+### Task 2: Refine and launch
 
 1. Improve the output with this refinement prompt:
 
