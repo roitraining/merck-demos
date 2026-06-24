@@ -69,7 +69,7 @@ That's it, you should have access to do the demos.
 
 > **Note:** This is for you to do the demos. You do not need to provide access to students. They can do the demos after the course, but they would need to use their own company environment.
 
-> **Warning:** Be sure to delete the Google Cloud Project before your 30-day trial expires to ensure you are never charge. You can always create a new project and start another trial the next time you need it.
+> **Warning:** Be sure to delete the Google Cloud Project before your 30-day trial expires, to ensure you are never charged. You can always create a new project and start another trial the next time you need it.
 
 ---
 
