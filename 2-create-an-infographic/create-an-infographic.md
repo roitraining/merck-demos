@@ -62,6 +62,7 @@ Your goal is to generate a clean infographic concept that is informative, hopefu
    - Add a short footer: "Source: ClinicalTrials.gov NCT06721156".
    - Place the attached Merck logo in the top-right corner.
    - Keep on-image text concise and legible.
+   - **IMPORTANT:** Check all spelling and ensure there are no mistakes.  
    ```
 
 5. Review the output and check whether it follows all four parts of PTCF.

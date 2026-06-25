@@ -46,15 +46,23 @@ Click **Create** to provision the Gemini Enterprise Environment.
 
 ---
 
-### Step 5 — Enable the Agent Designer Feature
+### Step 5 — Enable Features 
 
 1. In the left-hand navigation, click **Configurations**.
 2. Click **Feature Management** at the top of the page.
 3. Enable the **Agent designer** feature.
 4. Click the __Save__ button.
 
-
 ![Enable the Agent Designer feature](images/enable-agent-designer.png)
+
+5. Scroll to the __Enable Image Generation__ section and choose the latest Flash image generation model.
+
+![Enable the Image Generation feature](images/enable-image-generation.png)
+
+
+6. Scroll to the __Model availability__ section and ensure all the models are enabled. 
+
+![Enable Models](images/enable-models.png)
 
 ---
 
