@@ -4,7 +4,7 @@
 20 minutes
 
 ## Overview
-In this lab, you will use Gemini Image Generation to create a healthcare infographic related to Merck's Alzheimer's clinical trial work. The focus is prompt engineering using a simple framework:
+In this lab, you will use Gemini Image Generation to create a healthcare infographic related to Cymbal Pharma's Alzheimer's clinical trial work. The focus is prompt engineering using a simple framework:
 
 - Persona
 - Task
@@ -20,7 +20,7 @@ You will create a baseline infographic prompt, then iterate with small targeted 
 
 ## Scenario
 
-Merck's Marketing and Communications team wants a visual social post that explains, at a high level, an Alzheimer's disease clinical trial in a format that is easy for a general audience to scan.
+Cymbal Pharma's Marketing and Communications team wants a visual social post that explains, at a high level, an Alzheimer's disease clinical trial in a format that is easy for a general audience to scan.
 
 Use this source for factual grounding:
 
@@ -36,10 +36,10 @@ Your goal is to generate a clean infographic concept that is informative, hopefu
 
 2. In the chat bar, select the **Tools** icon and choose **Create images**.
 
-3. Copy and paste the Merck logo into chat:
+3. Copy and paste the Cymbal Pharma logo into chat:
 
     <p align="left">
-       <img src="images/merck-logo.png" width="30%" alt="Merck Logo" />
+       <img src="images/cymbal-pharma-logo.png" width="30%" alt="Cymbal Pharma Logo" />
       <br>
     </p>
 
@@ -50,7 +50,7 @@ Your goal is to generate a clean infographic concept that is informative, hopefu
    You are a healthcare visual communications designer who creates clear, trustworthy infographics for non-technical audiences.
 
    Task:
-   Create a single-page infographic image for a social media post about Merck's Alzheimer's clinical trial (NCT06721156).
+   Create a single-page infographic image for a social media post about Cymbal Pharma's Alzheimer's clinical trial (NCT06721156).
 
    Context:
    Use only high-level facts from the trial page: this is an interventional Alzheimer's disease study, includes randomization and placebo control, and evaluates treatment effects over time using standard clinical outcome measures. Do not invent numerical results or claim efficacy. Keep the tone informative, hopeful, and responsible.
@@ -60,7 +60,7 @@ Your goal is to generate a clean infographic concept that is informative, hopefu
    - Visual style: modern, clean, medical-brand style using teal/blue accents and soft neutral backgrounds.
    - Include simple icons (brain, clipboard, calendar, shield, chart).
    - Add a short footer: "Source: ClinicalTrials.gov NCT06721156".
-   - Place the attached Merck logo in the top-right corner.
+   - Place the attached Cymbal Pharma logo in the top-right corner.
    - Keep on-image text concise and legible.
    - **IMPORTANT:** Check all spelling and ensure there are no mistakes.  
    ```

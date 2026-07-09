@@ -13,10 +13,10 @@ In this lab, you will create two lightweight agents in Gemini Enterprise Agent D
 ## Scenario
 
 <p align="left">
-  <img src="images/merck-logo.png" width="25%" alt="Merck Logo" />
+  <img src="images/cymbal-pharma-logo.png" width="25%" alt="Cymbal Pharma Logo" />
 </p>
 
-Merck teams often need to quickly summarize trial updates for leadership. Raw notes and snippets are useful, but they are not briefing-ready.
+Cymbal Pharma teams often need to quickly summarize trial updates for leadership. Raw notes and snippets are useful, but they are not briefing-ready.
 
 In this lab, you will build one agent to create a standardized trial brief and a second agent system to route high-risk trial updates for escalation.
 
@@ -38,7 +38,7 @@ This agent turns raw clinical-trial text into a clean, repeatable summary.
 3. The **Agent Designer** page opens. In the chat box, paste the following prompt and click the **Submit** icon:
 
    ```text
-   Create an agent called "Clinical Trial Briefing Agent" for Merck.
+   Create an agent called "Clinical Trial Briefing Agent" for Cymbal Pharma.
 
    This agent summarizes raw clinical trial notes into a structured briefing.
 
@@ -68,7 +68,7 @@ This agent turns raw clinical-trial text into a clean, repeatable summary.
 5. Click **Preview** and test with this sample input:
 
    ```text
-   Trial update: MK-ALZ-204 is a Phase 2 randomized, placebo-controlled study in early Alzheimer's disease. Enrollment target is 420 participants across US and EU sites. Primary endpoint is change in CDR-SB at 18 months. Interim operations update indicates enrollment is slower than plan in EU sites. No new serious safety signal reported; common AEs include headache and infusion-related reactions. Database lock is currently projected for Q2 next year.
+   Trial update: CP-ALZ-204 is a Phase 2 randomized, placebo-controlled study in early Alzheimer's disease. Enrollment target is 420 participants across US and EU sites. Primary endpoint is change in CDR-SB at 18 months. Interim operations update indicates enrollment is slower than plan in EU sites. No new serious safety signal reported; common AEs include headache and infusion-related reactions. Database lock is currently projected for Q2 next year.
    ```
 
 6. Check that all fields are captured and missing fields are flagged.
@@ -92,5 +92,5 @@ This agent turns raw clinical-trial text into a clean, repeatable summary.
 ## Congratulations!
 
 In this lab, you have:
-- Created a clinical-trial summarization agent for Merck.
+- Created a clinical-trial summarization agent for Cymbal Pharma.
 - Refined output quality with clear instruction updates.

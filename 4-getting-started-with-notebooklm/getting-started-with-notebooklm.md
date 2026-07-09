@@ -4,7 +4,7 @@
 20 minutes
 
 ## Overview
-In this lab, you will create a NotebookLM notebook for executive preparation using Merck's public web sources. You will add multiple sources, review the Notebook Guide, ask meeting-focused questions, and produce three deliverables: an executive summary, an audio overview, and a slide deck outline.
+In this lab, you will create a NotebookLM notebook for executive preparation using public web sources. You will add multiple sources, review the Notebook Guide, ask meeting-focused questions, and produce three deliverables: an executive summary, an audio overview, and a slide deck outline.
 
 ### You learn how to:
 - Create a new notebook in NotebookLM.
@@ -16,14 +16,14 @@ In this lab, you will create a NotebookLM notebook for executive preparation usi
 ## Scenario
 
 <p align="left">
-   <img src="images/merck-logo.png" width="25%" alt="Healthcare logo" />
+   <img src="images/cymbal-pharma-logo.png" width="25%" alt="Healthcare logo" />
 </p>
 
-You are a Merck executive preparing for a board and investor meeting. You have 10 minutes to brief leadership on the current state of the pipeline and related strategic context.
+You are a Cymbal Pharma executive preparing for a board and investor meeting. You have 10 minutes to brief leadership on the current state of the pipeline and related strategic context.
 
 You need a concise, source-backed summary covering pipeline highlights, clinical trial posture, partnering posture, and investor-facing context.
 
-In this lab, you will use NotebookLM to collect and synthesize these public Merck sources:
+In this lab, you will use NotebookLM to collect and synthesize these public sources:
 
 - https://www.merck.com/research/product-pipeline/
 - https://www.merck.com/research/business-development-and-licensing/
@@ -80,7 +80,7 @@ Once sources are added, NotebookLM automatically generates a **Notebook Guide** 
    </p>
 
 2. Read through the generated summary. NotebookLM should have identified:
-   - Current Merck pipeline themes
+   - Current pipeline themes
    - Clinical development and trial context
    - Business development/licensing themes
    - Investor-facing priorities
@@ -111,7 +111,7 @@ What are the most important current pipeline highlights I should present to the 
 3. Type the following in the chat and press ENTER:
 
 ```text
-Based on the sources, what competitor and market context should I include so investors understand where Merck is positioned?
+Based on the sources, what competitor and market context should I include so investors understand where our company is positioned?
 ```
 
 - Check that NotebookLM synthesizes across more than one source.
@@ -146,7 +146,7 @@ Keep it concise, clear, and citation-grounded.
 3. Prompt it with:
 
 ```text
-Create an executive audio briefing for Merck leadership. Focus on pipeline status, market context, and key risks. Keep the tone confident, balanced, and factual.
+Create an executive audio briefing for our leadership. Focus on pipeline status, market context, and key risks. Keep the tone confident, balanced, and factual.
 ```
 
    > [!NOTE]

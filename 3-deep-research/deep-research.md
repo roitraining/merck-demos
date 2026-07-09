@@ -4,7 +4,7 @@
 30 minutes
 
 ## Overview
-In this lab, you will use Gemini Enterprise Deep Research to analyze the current Alzheimer's drug market for a Merck strategy use case.
+In this lab, you will use Gemini Enterprise Deep Research to analyze the current Alzheimer's drug market for a Cymbal Pharma strategy use case.
 
 You will start broad, then narrow to competitor therapies, evidence strength, and market dynamics. Finally, you will turn the findings into a concise strategy brief.
 
@@ -16,10 +16,10 @@ You will start broad, then narrow to competitor therapies, evidence strength, an
 ## Scenario
 
 <p align="left">
-   <img src="images/merck-logo.png" width="25%" alt="Healthcare logo" />
+   <img src="images/cymbal-pharma-logo.png" width="25%" alt="Healthcare logo" />
 </p>
 
-Merck's Market Intelligence team needs a current view of the Alzheimer's treatment landscape. Leadership wants to understand the major approved and late-stage competitor therapies, where evidence is strongest, and where unmet need still exists.
+Cymbal Pharma's Market Intelligence team needs a current view of the Alzheimer's treatment landscape. Leadership wants to understand the major approved and late-stage competitor therapies, where evidence is strongest, and where unmet need still exists.
 
 Your job is to use Gemini Enterprise Deep Research to build a source-backed landscape review and convert it into a short strategic recommendation.
 
@@ -43,7 +43,7 @@ Begin broad so Deep Research can map the therapeutic and market landscape.
 3. Paste the following prompt:
 
 ```text
-You are supporting Merck's Market Intelligence team.
+You are supporting Cymbal Pharma's Market Intelligence team.
 
 Research the current global market for Alzheimer's disease drugs.
 
@@ -69,7 +69,7 @@ Now narrow the research to direct competitor comparison.
 1. Ask this follow-up prompt:
 
 ```text
-Now compare the leading Alzheimer's drug competitors relevant to Merck.
+Now compare the leading Alzheimer's drug competitors relevant to Cymbal Pharma.
 
 Build a comparison table with one row per therapy and these columns:
 - Drug name
