@@ -6,10 +6,12 @@
 ## Overview
 In this lab, you will use Gemini's image generation model to create a warm, professional, branded social media image for a Cymbal Pharma campaign. This is a quick, fun introduction to Gemini's image generation capabilities and a great way to kick off the course.
 
-### You learn how to:
-- Construct a visual prompt to evoke emotion and convey a campaign message.
-- Upload an image file (Cymbal Pharma logo) as context for image generation.
-- Generate a professional, brand-ready visual asset.
+### In this lab, you:
+-	Practice using GPTeal powered by Gemini Enterprise in a variety of real-world scenarios
+-	Learn how the image generation capability works
+-	Experience a hands-on demonstration of how GPTeal powered by Gemini Enterprise can refine and personalize outputs
+-	Are reminded that any use of GPTeal powered by Gemini Enterprise-generated images must comply with company policy
+
 
 ## Scenario
 
@@ -71,6 +73,8 @@ Cymbal Pharma's Corporate Communications and Marketing teams are launching a soc
 ## Congratulations
 
 In this lab, you have:
-- Created a heartwarming campaign visual built on real-world therapeutic context.
-- Practiced uploading a brand logo as visual context for image generation.
-- Explored fast style and setting refinements using Gemini.
+-	Practiced using GPTeal powered by Gemini Enterprise in a variety of real-world scenarios
+-	Learned how the image generation capability works
+-	Experienced a hands-on demonstration of how GPTeal powered by Gemini Enterprise can refine and personalize outputs
+-	Been reminded that any use of GPTeal powered by Gemini Enterprise-generated images must comply with company policy
+
