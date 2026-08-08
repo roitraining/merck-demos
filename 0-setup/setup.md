@@ -64,6 +64,10 @@ Click **Create** to provision the Gemini Enterprise Environment.
 
 ![Enable Models](images/enable-models.png)
 
+
+7. Be sure __Canvas__ is enabled as well. 
+
+![Enable Canvas](images/enable-canvas.png)
 ---
 
 ### Step 6 — Open Gemini Enterprise in the Browser
