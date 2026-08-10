@@ -1,111 +1,156 @@
 # Using Gemini Enterprise to Analyze Data
 
-**Duration:** 2 hours
+**Duration:** 2 hours 30 minutes
+
+A workflow masterclass on the craft of analysis—using Gemini Enterprise tools inside one end-to-end analytical workflow.
 
 ## Course Objectives
 
-- Use Gemini Enterprise tools to turn pharma questions into structured, evidence-backed analysis.
-- Use **Google Search** to gather and organize public, source-backed information.
-- Use **Deep Research** for multi-step investigations and cited analytical briefs.
-- Use **Gemini Notebook** (formerly NotebookLM) to synthesize multiple sources into briefings.
-- Build a **Data Analysis Agent** in Agent Designer using knowledge documents and synthetic data.
-- Use **Canvas** to turn analysis into an executive briefing and stakeholder slide deck.
+- Apply a **Question–Evidence–Conclusion (Q–E–C)** framework to structure analytical work.
+- Gather deeper, citation-backed evidence with **Deep Research**.
+- Synthesize multiple sources into an analysis-ready briefing with **Gemini Notebook** (formerly NotebookLM).
+- Craft an executive briefing and stakeholder slide deck with **Canvas**.
 
 ## Who should attend
 
-This course is for Merck colleagues who need to analyze information and present clear findings—roles such as Clinical Operations, Medical Affairs, Market Intelligence, Safety, and Commercial Analytics. 
+This course is for Merck colleagues who need to analyze information and present clear findings—roles such as Clinical Operations, Medical Affairs, Market Intelligence, Safety, and Commercial Analytics.
 
 It is especially useful for people who already use Gemini Enterprise and want a deeper, analysis-focused workflow rather than an introductory tour of GenAI features.
 
 ## Prerequisites
 
 - Completion of the introductory Gemini Enterprise Essentials course, **or** equivalent hands-on experience with Gemini Enterprise
-- Access to Gemini Enterprise (including Google Search, Deep Research, Agent Designer, and Canvas) and Gemini Notebook
+- Access to Gemini Enterprise (including Deep Research and Canvas) and Gemini Notebook
 - Comfort navigating Gemini Enterprise and pasting structured prompts
 
 ## Agenda
 
-Case studies build on each other: quick grounded lookup → multi-step research → multi-source synthesis → reusable agent with documents and data → executive briefing and slides.
+One analytical workflow: frame the question → gather evidence → synthesize → craft the narrative → apply to your own work.
 
 | Block | Minutes | Focus |
 |-------|---------|--------|
-| Welcome & objectives | 5 | Course framing |
-| Case Study 1 | 15 | Google Search |
-| Case Study 2 | 20 | Deep Research |
-| Case Study 3 | 20 | Gemini Notebook |
-| Case Study 4 | 20 | Data Analysis Agent |
-| Case Study 5 | 20 | Canvas (executive briefing & slides) |
-| Bring your own use case | 20 | Apply one tool to a real work question |
+| Welcome | 10 | Course framing and objectives |
+| Q–E–C Analytical Framework | 10 | Theory and mental model |
+| Introducing the Case Study | 10 | Cymbal Pharma decision scenario |
+| Phase 1: Frame the Question | 10 | Decision, audience, success criteria |
+| Phase 2: Gather Evidence with Deep Research | 20 | Citation-backed investigation |
+| Phase 3: Synthesize Findings with Gemini Notebook | 20 | Multi-source synthesis |
+| Phase 4: Craft the Narrative with Canvas | 20 | Executive briefing and slides |
+| Practice Workshop | 40 | Bring your own use case |
+| Wrapup and Q&A | 10 | Close, takeaways, and questions |
 
 ---
 
-### Case Study 1: Grounded Lookup with Google Search
+## Welcome
 
-**Tool:** Google Search (Gemini Enterprise built-in tool)  
-**Time:** ~15 minutes
+**Time:** ~10 minutes
 
-A Cymbal Pharma analytics stakeholder needs a fast, source-backed answer to a business question using public information. Participants select the **Google Search** tool in Gemini Enterprise, run a focused market-research or topic-research prompt, and organize findings into a short structured summary (key facts, sources, and what still needs follow-up).
-
-**Outcome:** A concise, source-backed research snapshot from a single grounded search workflow.
+Course framing, objectives, and how the session will run: theory first, one integrated case study, then a practice workshop on participants’ own use cases.
 
 ---
 
-### Case Study 2: Structured Investigation with Deep Research
+## Analytical Framework: Question–Evidence–Conclusion
+
+**Time:** ~10 minutes
+
+Before touching tools, participants learn a simple mental model for analytical work:
+
+1. **Question** — What decision are we supporting? Who is the audience? What would a good answer look like?
+2. **Evidence** — What information do we need? What is public vs internal? How do we keep claims source-backed and avoid inventing numbers?
+3. **Conclusion** — What is the so-what, the implication, and the ask—for this audience?
+
+**How Gemini Enterprise maps to Q–E–C (this course):**
+
+| Framework step | Tool in this course |
+|----------------|---------------------|
+| Question | Case kickoff / framing (human-led) |
+| Evidence | Deep Research → Gemini Notebook |
+| Conclusion | Canvas (executive briefing + slides) |
+
+---
+
+## Integrated Case Study: Cymbal Pharma Decision Brief
+
+### Introducing the Case Study
+
+**Time:** ~10 minutes
+
+**Scenario (high-level):** A Cymbal Pharma analytics stakeholder must prepare evidence and a recommendation for an upcoming program governance / stakeholders meeting. The same decision question carries through every phase—from research to synthesis to the final narrative.
+
+### Phase 1: Frame the Question
+
+**Time:** ~10 minutes  
+**Framework:** Question
+
+Clarify the decision, audience, and success criteria for the briefing. Capture a one-sentence analytical question that will guide every later phase.
+
+**Outcome:** A clear decision question and audience definition.
+
+---
+
+### Phase 2: Gather Evidence with Deep Research
 
 **Tool:** Deep Research  
-**Time:** ~20 minutes
+**Time:** ~20 minutes  
+**Framework:** Evidence
 
-The same type of question now needs more depth than a quick search—comparison, evidence strength, and cited synthesis. Participants frame a Deep Research brief, review and adjust the research plan, run the investigation, and turn the results into a structured analytical output (for example, a comparison table plus implications).
+Run a multi-step, citation-backed investigation against the decision question. Review and adjust the research plan, then convert findings into a structured analytical output (for example, a comparison table plus implications).
 
-**Outcome:** A multi-step, citation-backed analytical brief suitable for leadership discussion.
+**Outcome:** A source-backed evidence pack suitable for deeper synthesis.
 
 ---
 
-### Case Study 3: Multi-Source Synthesis with Gemini Notebook
+### Phase 3: Synthesize Findings with Gemini Notebook
 
 **Tool:** Gemini Notebook (formerly NotebookLM)  
-**Time:** ~20 minutes
+**Time:** ~20 minutes  
+**Framework:** Evidence → early Conclusion
 
-Analysis now depends on several documents and sources that must stay grounded and citeable. Participants create a Gemini Notebook, add multiple sources, ask analytical questions against that corpus, and produce a structured briefing (executive summary and key Q&A) grounded only in notebook sources.
+Create a notebook, add multiple sources from the case, ask analytical questions against that corpus, and produce a structured briefing grounded only in notebook sources.
 
-**Outcome:** A citation-backed multi-source analysis briefing.
-
----
-
-### Case Study 4: Reusable Data Analysis Agent
-
-**Tool:** Gemini Enterprise Agent Designer (no-code)  
-**Time:** ~20 minutes
-
-Cymbal Pharma needs a reusable agent for recurring analytical questions—not a one-off chat. Participants build a **Data Analysis Agent** in Agent Designer, attach **knowledge documents**, upload **synthetic data** for analysis, define clear analytical instructions (structured outputs, no invented numbers, flag missing data), test with sample questions, refine, and launch.
-
-**Outcome:** A working no-code analysis agent grounded in documents and synthetic data.
+**Outcome:** A citation-backed multi-source synthesis.
 
 ---
 
-### Case Study 5: Executive Briefing and Slides with Canvas
+### Phase 4: Craft the Narrative with Canvas
 
 **Tool:** Canvas (Gemini Enterprise)  
-**Time:** ~20 minutes
+**Time:** ~20 minutes  
+**Framework:** Conclusion
 
-Findings from the analysis workflow need to be packaged for a stakeholders meeting. Participants use **Canvas** to generate an executive briefing and a short slide deck that summarize the key insights, implications, and asks. They review the output, make a light refinement, and export the deck (Google Slides, PDF, or PowerPoint) for sharing.
+Turn the case findings into an executive briefing and short stakeholder slide deck—key insights, implications, and asks. Lightly refine, then export (Google Slides, PDF, or PowerPoint).
 
-**Outcome:** An executive briefing and stakeholder-ready slide deck generated in Canvas and exported for the meeting.
+**Outcome:** Stakeholder-ready narrative artifacts for the meeting.
 
 ---
 
-### Bring Your Own Use Case
+## Practice Workshop: Bring Your Own Use Case
 
-**Time:** ~20 minutes
+**Time:** ~40 minutes
 
-Participants pick a real analysis question from their own work and choose **one** tool from today’s course. They draft a first-pass prompt, notebook approach, agent brief, or Canvas deck outline. Optional share-out: which tool fits which kind of analytics question.
+Small groups (or pairs) apply Q–E–C and the day’s tools to a real work problem.
+
+1. Write a real analytical **Question** from your day-to-day work.
+2. Map the **Evidence** you need and which tool(s) fit (Deep Research, Gemini Notebook, and/or Canvas).
+3. Draft a first-pass artifact: research prompt, notebook plan, or Canvas outline.
+4. Optional share-out: one insight about the framework or tool fit—not just a feature tip.
 
 **Outcome:** A take-home starter mapped to a real Merck workflow.
 
 ---
 
+## Wrapup and Q&A
+
+**Time:** ~10 minutes
+
+Recap the Q–E–C workflow and how each tool supported Question, Evidence, or Conclusion. Open floor for questions, share takeaways, and point participants to next steps for applying the workflow on the job.
+
+---
+
 ## Notes for later lab design (not for delivery yet)
 
-- Keep case studies **general analytics patterns**; finalize pharma scenarios, datasets, and prompts after outline approval.
-- Progression intent: Search (fast facts) → Deep Research (depth + citations) → Gemini Notebook (corpus synthesis) → Agent Designer (documents + synthetic data + reuse) → Canvas (executive briefing + slides).
-- Course framing can use **Cymbal Pharma** as the fictional company without locking each lab to a single product or trial ID until details are approved.
+- Keep the outline **workflow-first**; finalize the concrete Cymbal Pharma decision, datasets, and prompts after approval.
+- Hands-on tool path: Deep Research → Gemini Notebook → Canvas (no dedicated Google Search or Data Analysis Agent demo in this event).
+- Labs should read as **phases of one case**, not disconnected tool demos.
+- Course framing uses **Cymbal Pharma** without locking a single product or trial ID until details are approved.
+- Agenda totals **150 minutes** (2 hours 30 minutes), with a larger Practice Workshop and a short Wrapup/Q&A.
