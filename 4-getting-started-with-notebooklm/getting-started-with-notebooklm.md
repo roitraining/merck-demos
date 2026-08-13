@@ -23,7 +23,7 @@ You are a Cymbal Pharma executive preparing for a board and investor meeting. Yo
 
 You need a concise, source-backed summary covering pipeline highlights, clinical trial posture, partnering posture, and investor-facing context.
 
-In this lab, you will use NotebookLM to collect and synthesize these public sources:
+In this lab, you will use Gemini Notebook to collect and synthesize these public sources:
 
 - https://www.merck.com/research/product-pipeline/
 - https://www.merck.com/research/business-development-and-licensing/
