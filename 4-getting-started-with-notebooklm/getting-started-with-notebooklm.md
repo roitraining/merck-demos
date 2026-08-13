@@ -40,7 +40,7 @@ In this lab, you will use Gemini Notebook to collect and synthesize these public
 2. On the Gemini Notebook home page, click the button to create new notebook.
 
    <p align="left">
-     <img src="images/new-notebook.png" width="50%" alt="NotebookLM home page showing New notebook button" />
+     <img src="images/new-notebook.png" width="50%" alt="Gemini Notebook home page showing New notebook button" />
      <br><em>The New notebook button on the Gemini Notebook home page</em>
    </p>
 
