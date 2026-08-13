@@ -1,15 +1,15 @@
-# Getting Started with NotebookLM
+# Getting Started with Gemini Notebook
 
 ## Time Required
 20 minutes
 
 ## Overview
-In this lab, you will create a NotebookLM notebook for executive preparation using public web sources. You will add multiple sources, review the Notebook Guide, ask meeting-focused questions, and produce three deliverables: an executive summary, an audio overview, and a slide deck outline.
+In this lab, you will create a Gemini Notebook for executive preparation using public web sources. You will add multiple sources, review the Notebook Guide, ask meeting-focused questions, and produce three deliverables: an executive summary, an audio overview, and a slide deck outline.
 
 ### You learn how to:
-- Create a new notebook in NotebookLM.
+- Create a new notebook in Gemini Notebook.
 - Add website sources directly into a notebook.
-- Use NotebookLM to get a structured overview of a multi-source topic.
+- Use Gemini Notebook to get a structured overview of a multi-source topic.
 - Ask targeted, citation-grounded questions for leadership prep.
 - Generate executive-ready outputs quickly.
 
@@ -35,13 +35,13 @@ In this lab, you will use NotebookLM to collect and synthesize these public sour
 
 ### Task 1: Create a Notebook and add web sources
 
-1. Open [NotebookLM](https://notebooklm.google.com/) in your browser. Sign in with your Google account if prompted.
+1. Open [Gemini Notebook](https://notebook.google.com/) in your browser. Sign in with your Google account if prompted.
 
-2. On the NotebookLM home page, click **New notebook**.
+2. On the Gemini Notebook home page, click the button to create new notebook.
 
    <p align="left">
      <img src="images/new-notebook.png" width="50%" alt="NotebookLM home page showing New notebook button" />
-     <br><em>The New notebook button on the NotebookLM home page</em>
+     <br><em>The New notebook button on the Gemini Notebook home page</em>
    </p>
 
 3. A new, empty notebook opens. The __Add Sources__ screen will open. 
@@ -63,14 +63,14 @@ https://www.merck.com/research/clinical-trials/
 ```
 
 
-6. Wait while NotebookLM processes the sources. Confirm all four appear in the Sources panel.
+6. Wait while the notebook processes the sources. Confirm all four appear in the Sources panel.
 
    > [!NOTE]
-   > NotebookLM responses are only as strong as the sources you provide. Keep your source set focused and relevant to your meeting goal.
+   > Notebook responses are only as strong as the sources you provide. Keep your source set focused and relevant to your meeting goal.
 
 ### Task 2: Explore the Notebook Guide
 
-Once sources are added, NotebookLM automatically generates a **Notebook Guide** with key topics, themes, and suggested questions.
+Once sources are added, Gemini Notebook automatically generates a **Notebook Guide** with key topics, themes, and suggested questions.
 
 1. In the chat panel, click **Notebook Guide**.
 
@@ -79,13 +79,13 @@ Once sources are added, NotebookLM automatically generates a **Notebook Guide** 
      <br><em>The Notebook Guide provides an instant overview of your source</em>
    </p>
 
-2. Read through the generated summary. NotebookLM should have identified:
+2. Read through the generated summary. Gemini should have identified:
    - Current pipeline themes
    - Clinical development and trial context
    - Business development/licensing themes
    - Investor-facing priorities
 
-3. Scroll to the **Suggested questions** at the bottom of the guide. These are questions NotebookLM has surfaced as important based on the document's content. Take note of them before moving to the next task.
+3. Scroll to the **Suggested questions** at the bottom of the guide. These are questions Gemini Notebook has surfaced as important based on the document's content. Take note of them before moving to the next task.
 
    > [!NOTE]
    > The Notebook Guide is generated automatically but is not saved. If you want to keep it, click the **Save to note** icon (📌) before closing or scrolling past it.
@@ -114,7 +114,7 @@ What are the most important current pipeline highlights I should present to the 
 Based on the sources, what competitor and market context should I include so investors understand where our company is positioned?
 ```
 
-- Check that NotebookLM synthesizes across more than one source.
+- Check that Gemini Notebook synthesizes across more than one source.
 - Save this response to a note.
 
 ### Task 4: Create an executive summary
@@ -139,7 +139,7 @@ Keep it concise, clear, and citation-grounded.
 
 ### Task 5: Generate an audio overview
 
-1. Click the arrow icon on the **Audio** button In NotebookLM Studio.
+1. Click the arrow icon on the **Audio** button In Gemini Notebook Studio.
 
 2. Select the __Brief__ option.
 
@@ -155,7 +155,7 @@ Create an executive audio briefing for our leadership. Focus on pipeline status,
 
 ### Task 6: Generate a slide deck
 
-1. Click the arrow icon on the **Slide Deck** button In NotebookLM Studio.
+1. Click the arrow icon on the **Slide Deck** button In Gemini Notebook Studio.
 
 2. Select the __Presenter Slides__ option, and click __Generate__. 
 
@@ -167,7 +167,7 @@ Create a new notebook for your own leadership topic. Add 3-5 trusted sources, as
 ## Congratulations
 
 In this lab, you have:
-- Created a NotebookLM notebook and imported multiple web sources.
+- Created a Gemini Notebook  and imported multiple web sources.
 - Used the Notebook Guide to get a fast strategic overview.
 - Asked targeted, citation-grounded questions for board/investor prep.
 - Produced three executive deliverables: a summary, audio overview, and slide deck outline.
