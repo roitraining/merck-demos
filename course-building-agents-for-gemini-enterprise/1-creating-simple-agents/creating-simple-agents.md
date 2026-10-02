@@ -30,7 +30,7 @@ The Clinical Trial Briefing Assistant helps Clinical Ops and Medical Affairs ins
 
 1. Open your Gemini Enterprise web app in a browser.
 
-2. In the left navigation menu, click **+ New agent**.
+2. In the left navigation menu, click **+ New agent**, and select **Chat agent**.
 
    <p align="left">
      <img src="images/new-agent.png" width="60%" alt="Navigation menu showing + Create agent" />
@@ -119,7 +119,7 @@ Update on CP-ONC-118, Phase 3 randomized study in advanced NSCLC. Design is open
 
 The Trial Risk Escalation Desk is a two-part agent system. A Triage Agent assesses trial-update risk and determines routing; if escalation is needed, a Medical Monitor Escalation Agent drafts a structured internal memo for the Medical Monitor / Program Lead.
 
-1. In the navigation menu, click **+ New agent** to open a fresh Agent Designer session.
+1. In the navigation menu, click **+ New agent** to open a fresh Chat agent in a Designer session.
 
 2. In the chat box, paste the following prompt and click **Submit**:
 
