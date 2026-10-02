@@ -68,6 +68,11 @@ Click **Create** to provision the Gemini Enterprise Environment.
 7. Be sure __Canvas__ is enabled as well. 
 
 ![Enable Canvas](images/enable-canvas.png)
+
+8. Also enable skills and Skill sharing
+
+> [!NOTE]
+> It won't hurt to just enable everything, as this is just a temporary demo environment. 
 ---
 
 ### Step 6 — Open Gemini Enterprise in the Browser
