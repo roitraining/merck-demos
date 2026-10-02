@@ -69,7 +69,7 @@ Click **Create** to provision the Gemini Enterprise Environment.
 
 ![Enable Canvas](images/enable-canvas.png)
 
-8. Also enable skills and Skill sharing
+8. Also enable skills and skill sharing
 
 > [!NOTE]
 > It won't hurt to just enable everything, as this is just a temporary demo environment. 
